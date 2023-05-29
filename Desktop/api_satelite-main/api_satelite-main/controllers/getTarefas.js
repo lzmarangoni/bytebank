@@ -5,11 +5,7 @@ function getTarefas(req, res){
    res.send(tarefas)
 }
 
-/*function getTarefa(req, res){
-    const tarefa = req.params.id
-    const tarefas = getTarefaPorID(tarefa)
-   res.send(tarefas)
-}*/
+
 
 module.exports = {
     getTarefas
